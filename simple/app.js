@@ -4,9 +4,9 @@
 
 var express = require('express')
     , routes = require('./routes')
-    , User = require('bobamo/examples/model/user')
-    , Group = require('bobamo/examples/model/group')
-    , Employee = require('bobamo/examples/model/employee')
+    , User = require('./model/user')
+    , Group = require('./model/group')
+    , Employee = require('./model/employee')
     , bobamo = require('bobamo')
     , http = require('http')
     ;
